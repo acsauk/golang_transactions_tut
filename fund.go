@@ -5,7 +5,7 @@ type Fund struct {
   balance int
 }
 
-func NewFund(initialBalance int) *fund {
+func NewFund(initialBalance int) *Fund {
   // Its possible to return a 'pointer' to a new struct without the need
   // for it to be on the stack as Go works this out for us
   return &Fund{
